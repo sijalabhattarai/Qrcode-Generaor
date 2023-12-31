@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react';
 import QRCode from 'qrcode.react';
-import styles from './QRCodeGenerator.css';
 import { toPng } from 'svg-to-image'; 
 
 export default function QRCodeGenerator() {

@@ -13,6 +13,7 @@ export default function QRCodeGenerator() {
 
   return (
     <div className='container'>
+            <h1>QR Code Generator</h1>
       <textarea
         placeholder="Enter text for QR code"
         value={text}
